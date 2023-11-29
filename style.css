@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+  /* Set the height of the carousel to 35% of the viewport height */
+  #carouselExampleDark {
+    height: 50vh; /* Set the desired percentage of the viewport height */
+     /* Hide overflow content */
+  }
+
+  /* Set the height of carousel items to cover the carousel container */
+  #carouselExampleDark .carousel-item {
+    height: 50vh;
+  }
+ .nav-link:hover {
+    color: white !important;
+    background-color: red !important;
+  }
